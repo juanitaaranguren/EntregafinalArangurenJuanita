@@ -1,0 +1,74 @@
+[
+    {
+        "nombre": "Obras completas de Poe",
+        "precio": 45000,
+        "img": "../img/poe.jpg"
+    },
+    {
+        "nombre": "Poesía reunida de Piedad Bonett",
+        "precio": 155000,
+        "img": "../img/bonett1.jpg"
+    },
+    {
+        "nombre": "Borges personal de Borges",
+        "precio": 240000,
+        "img": "../img/borges1.jpg"
+    },
+    {
+        "nombre": "El Tango de Borges",
+        "precio": 40000,
+        "img": "../img/borges2.jpg"
+    },
+    {
+        "nombre": "Poesía completa de Borges",
+        "precio": 44000,
+        "img": "../img/borges3.jpg"
+    },
+    {
+        "nombre": "Libro de sueños de Borges",
+        "precio": 25000,
+        "img": "../img/borges4.jpg"
+    }
+    ,
+    {
+        "nombre": "Poesía completa de María M. Carranza",
+        "precio": 18000,
+        "img": "../img/carranza1.jpg"
+    }
+    ,
+    {
+        "nombre": "Historias de cronopios y de famas de Cortázar",
+        "precio": 56000,
+        "img": "../img/cortazar1.jpg"
+    }
+    ,
+    {
+        "nombre": "Cuentos completos 1 de Cortázar",
+        "precio": 58000,
+        "img": "../img/cortazar2.jpg"
+    }
+    ,
+    {
+        "nombre": "Rayuela de Cortázar",
+        "precio": 59000,
+        "img": "../img/cortazar3.jpg"
+    }
+    ,
+    {
+        "nombre": "Poesía de Antonio Machado",
+        "precio": 67000,
+        "img": "../img/machado1.jpg"
+    }
+    ,
+    {
+        "nombre": "En esta noche, en este mundo de Pizarnik",
+        "precio": 68000,
+        "img": "../img/pizarnik1.jpg"
+    }
+    ,
+    {
+        "nombre": "Prosa completa de Pizarnik",
+        "precio": 50000,
+        "img": "../img/pizarnik2.jpg"
+    }
+]

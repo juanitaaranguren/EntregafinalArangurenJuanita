@@ -1,0 +1,161 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-color: #92b5ca3e;
+}
+
+header > .headofall{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header > .headofdescription {
+    padding: 20px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cuadro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cuadro > .producto {
+    width: 300px;
+    height: 500px;
+    border: solid 1px black;
+    overflow: hidden;
+    margin-left: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cuadro > .producto > .imgref {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+.cuadro > .producto > .imgref > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cuadro > .producto > .contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cuadro > .producto > .contenido > p{
+    font-size: 18pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cuadro > .producto > .contenido > button {
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: none;
+    border: solid 2px blue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carrito
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    border: solid 5px rgb(14, 102, 255);
+    border-style: double;
+    background-color: #3090ff5f;
+}
+
+table tr td .tt {
+    width: 140px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.cuadro > .producto > .contenido > button, .carrito > .comprarlibros {
+    margin-top: 40px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: none;
+    border: solid 2px blue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulodelcarrito
+{
+    padding: 20px;
+}
+
+
+.titulobuscador
+{
+    padding: 40px;
+}
+
+.contenedorbusq {
+
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    width: 300px;
+  }
+  
+  #book-list li {
+    display: none;
+  }
+
+  #poetry-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  #poem {
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  #btn-random {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  

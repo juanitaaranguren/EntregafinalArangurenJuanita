@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Virtual</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="headofall">Biblioteca de Alejandría </h1>
+        <h2 class="headofdescription"> ¿Qué vas a leer hoy? </h2>
+    </header>
+
+    <div class="carrito">
+        <table class="tablacontenido">
+
+            <h2 class="titulodelcarrito">Tu carrito de compras</h2>
+            <tr>
+                <td> <p class="tt"> Libro </p></td>
+                <td> <p class="tt"> Precio </p></td>
+            </tr>
+        </table>
+        <button class="comprarlibros"> Comprar libros </button>
+    </div>
+
+    <div class="seccion">
+        <div class="cuadro">
+            <!-- inventario en json -->
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contenedorbusq">
+        <h2 class="titulobuscador">¿Qué libro quieres buscar?</h2>
+        <input type="text" id="search-input" placeholder="Buscar libro...">
+      </div>
+      <ul id="book-list"></ul>
+      
+      <div id="poetry-container">
+        <h1>¿Qué poema tiene hoy el destino para ti?</h1>
+        <div id="poem"></div>
+        <button id="btn-random">Buscar aleatoriamente</button>
+      </div>
+
+    
+
+
+
+    <script src="./principal.js"></script>
+    <script src="./buscador.js"></script>
+    <script src="./aleatorio.js"></script>
+</body>
+</html>
